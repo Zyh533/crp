@@ -683,7 +683,7 @@ webpackJsonp([0], {
       }
     }, f, !1, function (t) {
       s('GsCJ')
-    }, 'data-v-f2ec6ad2', null).exports, y = {
+    }, 'data-v-f2ec6ad2', null).exports, k = {
       render: function () {
         var t = this, e = t.$createElement, s = t._self._c || e
         return s('div', {staticClass: 'container'}, [t._m(0), t._v(' '), s('div', {staticStyle: {height: '50px'}}), t._v(' '), s('div', {staticClass: 'head'}, [s('div', [s('img', {
@@ -769,7 +769,7 @@ webpackJsonp([0], {
         }), this._v(' '), e('span', {staticClass: 'row-middle'}, [this._v('家长关注')]), this._v(' '), e('div', {staticStyle: {flex: '1'}}), this._v(' '), e('span', {staticClass: 'row-right'}, [this._v('随时了解孩子的阅读')])])
       }]
     }
-    var k = s('VU/8')({
+    var y = s('VU/8')({
       name: 'Me', methods: {
         toUserInfo: function () {
           this.$router.push('/userinfo')
@@ -777,7 +777,7 @@ webpackJsonp([0], {
           this.$router.push('/readplan')
         }
       }
-    }, y, !1, function (t) {
+    }, k, !1, function (t) {
       s('Yzw4')
     }, 'data-v-39286b82', null).exports, x = s('OTr+'), w = {
       render: function () {
@@ -1036,7 +1036,7 @@ webpackJsonp([0], {
         }), 0)])], 1)
       }, staticRenderFns: []
     }
-    var M = s('VU/8')(T, z, !1, function (t) {
+    var A = s('VU/8')(T, z, !1, function (t) {
       s('8e66')
     }, 'data-v-5594bca8', null).exports, U = {
       name: 'BookDetail', components: {MyTitle: R.a}, data: function () {
@@ -1091,7 +1091,7 @@ webpackJsonp([0], {
           }
         }
       }
-    }, A = {
+    }, F = {
       render: function () {
         var t = this, e = t.$createElement, s = t._self._c || e
         return s('div', {staticClass: 'container'}, [s('my-title', {
@@ -1206,9 +1206,9 @@ webpackJsonp([0], {
         }, [this._v('如何成为精彩批注?')])])
       }]
     }
-    var I = s('VU/8')(U, A, !1, function (t) {
+    var M = s('VU/8')(U, F, !1, function (t) {
       s('Vqv3')
-    }, 'data-v-54d3f7db', null).exports, F = s('KBAF'), B = {
+    }, 'data-v-54d3f7db', null).exports, I = s('KBAF'), B = {
       render: function () {
         var t = this, e = t.$createElement, s = t._self._c || e
         return s('div', {staticClass: 'container'}, [s('my-title', {
@@ -1265,7 +1265,7 @@ webpackJsonp([0], {
     }
     var V = function (t) {
       s('VQmb')
-    }, L = s('VU/8')(F.a, B, !1, V, 'data-v-789cf7ae', null).exports, j = s('JJT7'), D = {
+    }, j = s('VU/8')(I.a, B, !1, V, 'data-v-789cf7ae', null).exports, L = s('JJT7'), D = {
       render: function () {
         var t = this, e = t.$createElement, s = t._self._c || e
         return s('div', {staticClass: 'container'}, [s('div', {staticClass: 'content'}, [s('img', {
@@ -1353,9 +1353,9 @@ webpackJsonp([0], {
         }, [t._v('取消')])]), t._v(' '), s('div', {staticClass: 'dialog'}, [t._v('\n      ' + t._s(t.errorMsg) + '\n    ')])])])
       }, staticRenderFns: []
     }
-    var W = function (t) {
+    var O = function (t) {
       s('6OZJ')
-    }, H = s('VU/8')(j.a, D, !1, W, 'data-v-bd1df664', null).exports, q = s('E4SP'), O = {
+    }, W = s('VU/8')(L.a, D, !1, O, 'data-v-bd1df664', null).exports, q = s('E4SP'), H = {
       render: function () {
         var t = this, e = t.$createElement, s = t._self._c || e
         return s('div', {staticClass: 'container'}, [s('my-title', {
@@ -1413,7 +1413,7 @@ webpackJsonp([0], {
     }
     var J = function (t) {
       s('BNdt')
-    }, Q = s('VU/8')(q.a, O, !1, J, 'data-v-0d0de25e', null).exports
+    }, Q = s('VU/8')(q.a, H, !1, J, 'data-v-0d0de25e', null).exports
     i.default.use(n.a)
     var Z = new n.a({
       mode: 'hash',
@@ -1432,22 +1432,41 @@ webpackJsonp([0], {
           name: 'HomeWork',
           component: b,
           meta: {keepAlive: !0}
-        }, {path: 'me', name: 'Me', component: k, meta: {keepAlive: !0}}],
+        }, {path: 'me', name: 'Me', component: y, meta: {keepAlive: !0}}],
         meta: {keepAlive: !0}
       }, {path: '/userInfo', name: 'UserInfo', component: S}, {
         path: '/allbook',
         name: 'AllBook',
         component: P
-      }, {path: '/readplan', name: 'ReadPlan', component: M}, {
+      }, {path: '/readplan', name: 'ReadPlan', component: A}, {
         path: '/bookdetail',
         name: 'BookDetail',
-        component: I
-      }, {path: '/allactivity', name: 'AllActivity', component: L}, {
+        component: M
+      }, {path: '/allactivity', name: 'AllActivity', component: j}, {
         path: '/register',
         name: 'Register',
-        component: H
+        component: W
       }, {path: '/bookpostil', name: 'BookPostil', component: Q}]
-    }), G = s('Au9i'), K = s.n(G), Y = (s('d8/S'), s('7t+N'), {
+    }), G = s('Au9i'), K = s.n(G), Y = (s('d8/S'), s('ydGU'))
+    Object(Y.a)(Object({NODE_ENV: 'production'}).BASE_URL + 'service-worker.js', {
+      ready: function () {
+        console.log('App is being served from cache by a service worker.\nFor more details, visit https://goo.gl/AFskqB')
+      }, registered: function () {
+        console.log('Service worker has been registered.')
+      }, cached: function () {
+        console.log('Content has been cached for offline use.')
+      }, updatefound: function () {
+        console.log('New content is downloading.')
+      }, updated: function () {
+        console.log('New content is available; please refresh.')
+      }, offline: function () {
+        console.log('No internet connection found. App is running in offline mode.')
+      }, error: function (t) {
+        console.error('Error during service worker registration:', t)
+      }
+    })
+    s('7t+N')
+    var X = {
       login: 'http://127.0.0.1:8880/login',
       getUserInfo: 'http://127.0.0.1:8880/getuserinfo',
       updateUser: 'http://127.0.0.1:8880/updateuser',
@@ -1457,16 +1476,16 @@ webpackJsonp([0], {
       getbook: 'http://127.0.0.1:8880/getbook',
       getrecommendbook: 'http://127.0.0.1:8880/getrecommendbook',
       getrecommendactivity: 'http://127.0.0.1:8880/getrecommendactivity'
-    }), X = {
+    }, tt = {
       render: function () {
         var t = this.$createElement
         return (this._self._c || t)('div')
       }, staticRenderFns: []
     }
-    var tt = s('VU/8')(Y, X, !1, function (t) {
+    var et = s('VU/8')(X, tt, !1, function (t) {
       s('wjQI')
     }, 'data-v-c55251da', null).exports
-    i.default.use(K.a), i.default.prototype.GLOBAL = tt, i.default.config.productionTip = !1, new i.default({
+    i.default.use(K.a), i.default.prototype.GLOBAL = et, i.default.config.productionTip = !1, new i.default({
       el: '#app',
       router: Z,
       components: {App: o},
@@ -1598,4 +1617,4 @@ webpackJsonp([0], {
     e.a = a.exports
   }
 }, ['NHnr'])
-//# sourceMappingURL=app.3fa9472060e75824d0d8.js.map
+//# sourceMappingURL=app.a75ee5598891247476c9.js.map
